@@ -1,0 +1,466 @@
+/*
+Theme Name: Arbitrage
+Theme URI: http://www.lipode.com/themes/arbitrage
+Description: The Ultimate Native Ad Arbitrage WordPress Theme
+Author: Lipode
+Author URI: http://www.lipode.com
+Version: 1.1.1
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/**************** Mobile Portrait ****************/
+
+@media only screen and (max-width: 767px) {
+	
+	/* HOMEPAGE */
+	
+	.wrapper, .home-content, .post{
+		width: 300px;
+		padding: 0;
+	}
+	
+	.home-content{
+		margin: 90px 0 0 0;
+	}
+	
+	.post{
+		width: 300px;
+		padding: 0;
+		height: auto;
+	}
+	
+	.post-title{
+		width: 300px;
+		height: auto;
+	}
+	
+	.post-thumb, .post-thumb img{
+		width: 300px;
+		height: 180px;
+	}
+	
+	/* HEADER & FOOTER */
+	
+	.header{
+		margin: 0 auto;
+		height: auto;
+	}
+	
+	.logo-image{
+		margin: auto;
+		text-align: center;
+		display: none;
+	}
+	
+	.logo-image img{
+		float: none;
+	}
+	
+	.header-container, .footer-container{
+		width: 300px;
+	}
+	
+	.header-nav, .logo-text, .footer-nav{
+		display: none;
+	}
+	
+	.header-left{
+		width: 120px;
+	}
+	
+	.header-right{
+		width: 165px;
+	}
+	
+	#category-select{
+		display: block;
+	}
+	
+	.fa-2x{
+		width: 25px;
+	}
+	
+	.search-field:focus{
+		width: 300px;
+	}
+	
+	/* POST */
+	
+	.post-content{
+		width: 300px;
+		padding: 0;
+	}
+
+	
+	h1{
+		font-size: 24px !important;
+		line-height: 27px !important;
+	}
+	
+	h2{
+		font-size: 22px;
+		line-height: 25px;
+	}
+	
+	h3{
+		font-size: 20px;
+		line-height: 23px;
+	}
+	
+	.single{
+		margin-top: 0;
+	}
+	
+	.single-info, .single-info a, .single-info-edit a, .single-info-bottom, .single-info-bottom a{
+		line-height: 30px;
+		font-size: 14px;
+	}
+	
+	.single-title{
+		margin: 20px 0 0 0;
+	}
+	
+	.single img, .random-container-bottom h4{
+		width: 300px;
+	}
+	
+	.share-facebook{
+		width: 300px;
+		font-size: 20px;
+		height: auto;
+		margin: 5px 0;
+	}
+	
+	.share-facebook:after{
+		font-size: 24px;
+	}
+	
+	.col-md-4 {
+	    width: 100%;
+	    padding: 0;
+	    margin-bottom: 10px;
+	}
+	
+	.post-pagination .page-nav-number{
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	
+	.col-md-8 {
+	    width: 100%;
+	    padding: 0;
+	}
+	
+	.post-pagination .btn{
+		padding: 15px 0;
+		font-size: 20px;
+	}
+	
+	/* SIDEBAR */
+	
+	.sidebar{
+		padding: 0;
+		margin: 0;
+	}
+	
+	.widget-title{
+		margin: 15px 0 0 0;
+	}
+	
+	.social-icons{
+		width: 300px;
+	}
+	
+	.social-icons li{
+		margin: 0 11px 11px 0;
+	}
+	
+	/* Disabled */
+	
+	.random-container-top, .random-container-bottom, .random-posts-widget-top, .random-posts-widget-bottom, .widget-title-top-bottom, .overlay, .after-content-ads, .scroll .fa{
+		display: none;
+	}
+	
+	.footer{
+		margin: 120px 0 0 0;
+		font-size: 11px;
+	}
+	
+	.footer a{
+		font-size: 11px;
+	}
+	
+}
+
+/**************** Mobile Landscape ****************/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	/* HOMEPAGE */
+	
+	.wrapper, .home-content, .post{
+		width: 480px;
+		padding: 0;
+	}
+	
+	.home-content{
+		margin: 90px 0 0 0;
+	}
+	
+	.post{
+		width: 480px;
+		padding: 0;
+		height: auto;
+	}
+	
+	.post-title{
+		width: 480px;
+		height: auto;
+	}
+	
+	.post-thumb, .post-thumb-medium, .random-posts-widget-sidebar img, .post-thumb img{
+		width: 480px;
+		height: 291px;
+	}
+	
+	/* HEADER & FOOTER */
+	
+	.header, .footer{
+		margin: 0 auto;
+	}
+	
+	.header-container, .footer-container{
+		width: 480px;
+	}
+	
+	.header-nav, .logo-text, .footer-nav{
+		display: none;
+	}
+	
+	.header-left{
+		width: 120px;
+	}
+	
+	.header-right{
+		width: 165px;
+	}
+	
+	#category-select{
+		display: block;
+	}
+	
+	.fa-2x{
+		width: 25px;
+	}
+	
+	.search-field:focus{
+		width: 480px;
+	}
+	
+	/* POST */
+	
+	.post-content{
+		width: 480px;
+		padding: 0;
+	}
+	
+	h1{
+		font-size: 26px !important;
+		line-height: 30px !important;
+	}
+	
+	h2{
+		font-size: 22px;
+		line-height: 25px;
+	}
+	
+	h3{
+		font-size: 20px;
+		line-height: 23px;
+	}
+	
+	.single{
+		margin-top: 0;
+	}
+	
+	.single-info, .single-info a, .single-info-edit a, .single-info-bottom, .single-info-bottom a{
+		line-height: 30px;
+		font-size: 14px;
+	}
+	
+	.single-title{
+		margin: 20px 0 0 0;
+	}
+	
+	.single img, .random-container-bottom h4{
+		width: 480px;
+	}
+	
+	.share-facebook{
+		width: 480px;
+		height: auto;
+		margin: 25px 0;
+	}
+	
+	.col-md-4 {
+	    width: 100%;
+	    padding: 0;
+	    margin-bottom: 10px;
+	}
+	
+	.post-pagination .page-nav-number{
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	
+	.col-md-8 {
+	    width: 100%;
+	    padding: 0;
+	}
+	
+	.post-pagination .btn{
+		padding: 15px 0;
+	}
+	
+	/* SIDEBAR */
+	
+	.sidebar{
+		width: 480px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.social-icons{
+		width: 480px;
+	}
+	
+	.widget-title, .subscribe-widget{
+		width: 450px;
+	}
+	
+	.social-icons li{
+		margin: 0 16px 16px 0;
+	}
+	
+	/* Disabled */
+	
+	.random-container-top, .random-container-bottom, .random-posts-widget-top, .random-posts-widget-bottom, .widget-title-top-bottom, .overlay, .after-content-ads{
+		display: none;
+	}
+	
+	.scroll .fa {
+	font-size: 30px;
+	}
+	
+	.footer{
+		margin: 120px 0 0 0;
+	}
+	
+}
+
+/**************** Tablets ****************/
+
+@media only screen and (min-width: 768px) and (max-width: 1113px) {
+	
+	/* HOMEPAGE */
+	
+	.wrapper, .home-content{
+		width: 768px;
+	}
+	
+	
+	/* Header & Footer */
+	
+	.header, .footer{
+		margin: 0 auto;
+	}
+	
+	.header-container, .footer-container{
+		width: 738px;
+	}
+	
+	.header-nav, .footer-nav{
+		display: none;
+	}
+	
+	.header-left{
+		width: 120px;
+		background: #37a793;
+	}
+	
+	#category-select{
+		display: block;
+	}
+
+	/* POST */
+	
+	.post-content{
+		width: 738px;
+	    padding: 0;
+	    margin: 60px auto 0 auto;
+	    float: none;
+	}
+	
+	.post{
+		width: 46%;
+		padding: 2%;
+	}
+	
+	.post-thumb, .post-thumb img, .post-title{
+		width: 100%;
+		height: auto;
+	}
+		
+	/* SIDEBAR */
+	
+	.sidebar{
+		width: 738px;
+		padding: 0;
+		margin: auto;
+		float: none;
+	}
+	
+	.widget-title, .subscribe-widget{
+		width: 708px;
+	}
+	
+	.widget-title{
+		margin: 15px 0;
+	}
+	
+	.social-icons{
+		width: 738px;
+	}
+	
+	.social-icons li{
+		margin: 0 9px 9px 0;
+	}
+	
+	.random-posts-widget-sidebar{
+		width: 339px;
+		height: 300px;
+		float: left;
+		margin: 30px 30px 0 0;
+	}
+	
+	.random-posts-widget-sidebar img, .post-thumb-medium{
+		width: 339px;
+		height: 206px;
+	}
+	
+		/* Disabled */
+	
+	.random-container-top, .random-container-bottom, .random-posts-widget-top, .random-posts-widget-bottom, .widget-title-top-bottom, .overlay, .after-content-ads{
+		display: none;
+	}
+	
+	.scroll .fa {
+		font-size: 30px;
+	}
+	
+	.footer{
+		margin: 120px 0 0 0;
+	}
+	
+}

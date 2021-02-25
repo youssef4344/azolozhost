@@ -1,0 +1,301 @@
+[2021-02-25 20:22:22] [class-ss-plugin.php:258] Received request to start generating a static archive
+[2021-02-25 20:22:24] [class-ss-archive-creation-job.php:61] Starting a job; no job is presently running
+[2021-02-25 20:22:24] [class-ss-archive-creation-job.php:62] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2021-02-25 20:22:25] [class-ss-archive-creation-job.php:76] Pushing first task to queue: setup
+[2021-02-25 20:22:25] [class-ss-archive-creation-job.php:105] Current task: setup
+[2021-02-25 20:22:25] [class-ss-archive-creation-job.php:120] Performing task: setup
+[2021-02-25 20:22:25] [class-ss-task.php:44] Status message: [setup] Setting up
+[2021-02-25 20:22:25] [class-ss-setup-task.php:29] Creating archive directory: C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\
+[2021-02-25 20:22:25] [class-ss-setup-task.php:65] Adding origin URL to queue: http://localhost/azolozhost/
+[2021-02-25 20:22:25] [class-ss-setup-task.php:76] Adding additional URL to queue: http://localhost/azolozhost/wp-includes/js/wp-emoji-release.min.js
+[2021-02-25 20:22:25] [class-ss-setup-task.php:122] File doesn't exist: http://localhost/azolozhost/wp-content/uploads/
+[2021-02-25 20:22:26] [class-ss-setup-task.php:122] File doesn't exist: http://localhost/azolozhost/wp-content/
+[2021-02-25 20:22:26] [class-ss-archive-creation-job.php:139] We've found our next task: fetch_urls
+[2021-02-25 20:22:26] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2021-02-25 20:22:26] [class-ss-archive-creation-job.php:120] Performing task: fetch_urls
+[2021-02-25 20:22:26] [class-ss-fetch-urls-task.php:43] Total pages: 2; Pages remaining: 2
+[2021-02-25 20:22:26] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/
+[2021-02-25 20:22:26] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:26] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380702411f1-bEdWZG.tmp
+[2021-02-25 20:22:27] [class-ss-url-fetcher.php:89] Filesize: 11652 bytes
+[2021-02-25 20:22:27] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2021-02-25 20:22:27] [class-ss-url-fetcher.php:180] New filename for static page: /index.html
+[2021-02-25 20:22:27] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380702411f1-bEdWZG.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/index.html
+[2021-02-25 20:22:27] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:28] [class-ss-fetch-urls-task.php:113] Adding 24 URLs to the queue
+[2021-02-25 20:22:28] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:28] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/js/wp-emoji-release.min.js
+[2021-02-25 20:22:28] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:28] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380704acca0-TlkfQG.tmp
+[2021-02-25 20:22:28] [class-ss-url-fetcher.php:89] Filesize: 14229 bytes
+[2021-02-25 20:22:28] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:28] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/js/wp-emoji-release.min.js
+[2021-02-25 20:22:28] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380704acca0-TlkfQG.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/js/wp-emoji-release.min.js
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2021-02-25 20:22:29] [class-ss-archive-creation-job.php:144] We're not done with the fetch_urls task yet
+[2021-02-25 20:22:29] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2021-02-25 20:22:29] [class-ss-archive-creation-job.php:120] Performing task: fetch_urls
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:43] Total pages: 25; Pages remaining: 23
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/category/health/
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/603807054789a-d3wwVJ.tmp
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:89] Filesize: 12179 bytes
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:180] New filename for static page: /category/health/index.html
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/603807054789a-d3wwVJ.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/category/health/index.html
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/category/beauty/
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380705a8cd9-5p6pu6.tmp
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:89] Filesize: 12179 bytes
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:180] New filename for static page: /category/beauty/index.html
+[2021-02-25 20:22:29] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380705a8cd9-5p6pu6.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/category/beauty/index.html
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:29] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/category/lifestyle/
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070603943-JLBhJF.tmp
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:89] Filesize: 12188 bytes
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:180] New filename for static page: /category/lifestyle/index.html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070603943-JLBhJF.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/category/lifestyle/index.html
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/category/relationships/
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/603807063e7b6-TQlJ37.tmp
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:89] Filesize: 12598 bytes
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:180] New filename for static page: /category/relationships/index.html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/603807063e7b6-TQlJ37.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/category/relationships/index.html
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/category/fashion/
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/603807068ab9c-3yahLH.tmp
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:89] Filesize: 12182 bytes
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:180] New filename for static page: /category/fashion/index.html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/603807068ab9c-3yahLH.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/category/fashion/index.html
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/2021/02/25/11-universal-signs-that-someone-is-flirting-with-you/
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380706cb9c1-iVtztD.tmp
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:89] Filesize: 19246 bytes
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:180] New filename for static page: /2021/02/25/11-universal-signs-that-someone-is-flirting-with-you/index.html
+[2021-02-25 20:22:30] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380706cb9c1-iVtztD.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/2021/02/25/11-universal-signs-that-someone-is-flirting-with-you/index.html
+[2021-02-25 20:22:30] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/terms-of-use/
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070724713-wdp1c2.tmp
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:89] Filesize: 15246 bytes
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:180] New filename for static page: /terms-of-use/index.html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070724713-wdp1c2.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/terms-of-use/index.html
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/about-us/
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070758f6f-LuxL2x.tmp
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:89] Filesize: 12298 bytes
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:180] New filename for static page: /about-us/index.html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070758f6f-LuxL2x.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/about-us/index.html
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/contact-us/
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380707964d9-FeplCh.tmp
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:89] Filesize: 16906 bytes
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:180] New filename for static page: /contact-us/index.html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380707964d9-FeplCh.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/contact-us/index.html
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/privacy-policy/
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380707c7c1f-95fvPu.tmp
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:89] Filesize: 21318 bytes
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:180] New filename for static page: /privacy-policy/index.html
+[2021-02-25 20:22:31] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380707c7c1f-95fvPu.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/privacy-policy/index.html
+[2021-02-25 20:22:31] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 25 pages/files
+[2021-02-25 20:22:32] [class-ss-archive-creation-job.php:144] We're not done with the fetch_urls task yet
+[2021-02-25 20:22:32] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2021-02-25 20:22:32] [class-ss-archive-creation-job.php:120] Performing task: fetch_urls
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:43] Total pages: 25; Pages remaining: 13
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/uploads/2021/02/11-Universal-Signs-That-Someone-Is-flirting-With-You-9-1024x683-1-478x250.jpg
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070821d5f-1d4rH2.tmp
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:89] Filesize: 38648 bytes
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: image/jpeg
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/uploads/2021/02/11-Universal-Signs-That-Someone-Is-flirting-With-You-9-1024x683-1-478x250.jpg
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070821d5f-1d4rH2.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/uploads/2021/02/11-Universal-Signs-That-Someone-Is-flirting-With-You-9-1024x683-1-478x250.jpg
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/themes/Arbitrage/style.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380708395fe-0gv1Pe.tmp
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:89] Filesize: 18780 bytes
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/themes/Arbitrage/style.css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380708395fe-0gv1Pe.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/themes/Arbitrage/style.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/themes/Arbitrage/responsive.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070853466-C3rLDY.tmp
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:89] Filesize: 6302 bytes
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/themes/Arbitrage/responsive.css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070853466-C3rLDY.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/themes/Arbitrage/responsive.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/css/dist/block-library/style.min.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070865c24-fYd00m.tmp
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:89] Filesize: 51338 bytes
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070865c24-fYd00m.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/css/dist/block-library/style.min.css
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-json/
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070899a77-AtOTdx.tmp
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:89] Filesize: 94329 bytes
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/html
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:180] New filename for static page: /wp-json/index.html
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070899a77-AtOTdx.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-json/index.html
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/xmlrpc.php
+[2021-02-25 20:22:32] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:32] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380708efd58-wPzZnJ.tmp
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:89] Filesize: 42 bytes
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:104] http_status_code: 405 | content_type: text/plain;charset=UTF-8
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:123] We weren't able to establish a filename; deleting temp file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/wlwmanifest.xml
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380709436f3-AiW30t.tmp
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:89] Filesize: 1045 bytes
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/xml
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/wlwmanifest.xml
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380709436f3-AiW30t.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/wlwmanifest.xml
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/themes/Arbitrage/functions/font-awesome/css/font-awesome.min.css
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/603807095eb6c-2X5Zod.tmp
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:89] Filesize: 27292 bytes
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: text/css
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/themes/Arbitrage/functions/font-awesome/css/font-awesome.min.css
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/603807095eb6c-2X5Zod.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/themes/Arbitrage/functions/font-awesome/css/font-awesome.min.css
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/js/jquery/jquery.min.js
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/603807098306b-uTgDlY.tmp
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:89] Filesize: 89496 bytes
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/603807098306b-uTgDlY.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/js/jquery/jquery.min.js
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/js/jquery/jquery-migrate.min.js
+[2021-02-25 20:22:33] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/60380709cc4a5-u9tMPC.tmp
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:89] Filesize: 11224 bytes
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2021-02-25 20:22:33] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/60380709cc4a5-u9tMPC.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/js/jquery/jquery-migrate.min.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 12 of 25 pages/files
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:144] We're not done with the fetch_urls task yet
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:120] Performing task: fetch_urls
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:43] Total pages: 25; Pages remaining: 3
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/themes/Arbitrage/functions/infinitescroll/jquery.infinitescroll.min.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070a1a7fe-5eYjYk.tmp
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:89] Filesize: 21404 bytes
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/themes/Arbitrage/functions/infinitescroll/jquery.infinitescroll.min.js
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070a1a7fe-5eYjYk.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/themes/Arbitrage/functions/infinitescroll/jquery.infinitescroll.min.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-content/themes/Arbitrage/functions/subscribe/mcsw.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070a4a283-zVCqPq.tmp
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:89] Filesize: 1002 bytes
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:180] New filename for static page: /wp-content/themes/Arbitrage/functions/subscribe/mcsw.js
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070a4a283-zVCqPq.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-content/themes/Arbitrage/functions/subscribe/mcsw.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:46] URL: http://localhost/azolozhost/wp-includes/js/wp-embed.min.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:56] URL is not being excluded
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:85] Fetching URL and saving it to: C:\WINDOWS\TEMP/6038070a5f183-zMoRtc.tmp
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:89] Filesize: 1426 bytes
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:104] http_status_code: 200 | content_type: application/javascript
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:180] New filename for static page: /wp-includes/js/wp-embed.min.js
+[2021-02-25 20:22:34] [class-ss-url-fetcher.php:120] Renaming temp file from C:\WINDOWS\TEMP/6038070a5f183-zMoRtc.tmp to C:\wamp64\www\azolozhost\wp-content\plugins\simply-static/static-files/simply-static-1-1614284545\/wp-includes/js/wp-embed.min.js
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:106] Extracting URLs and replacing URLs in the static file
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:113] Adding 0 URLs to the queue
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:124] We're saving this URL; keeping the static file
+[2021-02-25 20:22:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 25 pages/files
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:144] We're not done with the fetch_urls task yet
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:120] Performing task: fetch_urls
+[2021-02-25 20:22:34] [class-ss-fetch-urls-task.php:43] Total pages: 25; Pages remaining: 0
+[2021-02-25 20:22:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 25 of 25 pages/files
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:139] We've found our next task: transfer_files_locally
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2021-02-25 20:22:34] [class-ss-archive-creation-job.php:120] Performing task: transfer_files_locally
+[2021-02-25 20:22:34] [class-ss-transfer-files-locally-task.php:71] Total pages: 24; Pages remaining: 24
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:144] We're not done with the transfer_files_locally task yet
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:120] Performing task: transfer_files_locally
+[2021-02-25 20:22:35] [class-ss-transfer-files-locally-task.php:71] Total pages: 24; Pages remaining: 0
+[2021-02-25 20:22:35] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 24 of 24 files
+[2021-02-25 20:22:35] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://youssef4344.github.io/azolozhost/" target="_blank">https://youssef4344.github.io/azolozhost/</a>
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:139] We've found our next task: wrapup
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:105] Current task: wrapup
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:120] Performing task: wrapup
+[2021-02-25 20:22:35] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2021-02-25 20:22:35] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:135] This task is done and there are no more tasks, time to complete the job
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:158] Completing the job
+[2021-02-25 20:22:35] [class-ss-archive-creation-job.php:268] Status message: [done] Done! Finished in 00:00:10
